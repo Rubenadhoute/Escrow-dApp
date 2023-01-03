@@ -1,26 +1,48 @@
 # Decentralized Escrow Application
 
-This is an Escrow Dapp built with [Hardhat](https://hardhat.org/).
+This is very basic dApp aims to provide decentralized Escrow services built with [Hardhat](https://hardhat.org/).
 
-## Project Layout
+##### What is an escrow ?
 
-There are three top-level folders:
+An escrow is a contractual arrangement in which a third party (the stakeholder or escrow agent) receives and disburses money or property for the primary transacting parties, with the disbursement dependent on conditions agreed to by the transacting parties.
 
-1. `/app` - contains the front-end application
-2. `/contracts` - contains the solidity contract
-3. `/tests` - contains tests for the solidity contract
+##### Why decentralization ?
 
-## Setup
+Aim to take advantage of cool Ethereum features such as immutability and censorship resistance to provide flawless escrow service.
 
-Install dependencies in the top-level directory with `npm install`.
+##### How to use this ?
 
-After you have installed hardhat locally, you can use commands to test and compile the contracts, among other things. To learn more about these commands run `npx hardhat help`.
+Well if you need some escrow services and have little faith in human moral just follow the Getting Setup with dApp section below.
 
-Compile the contracts using `npx hardhat compile`. The artifacts will be placed in the `/app` folder, which will make it available to the front-end. This path configuration can be found in the `hardhat.config.js` file.
+I advise to take a look at the Escrow contract to understand the logic before
+setting up the dApp.
 
-## Front-End
+## Key Learnings
 
-`cd` into the `/app` directory and run `npm install`
+1. Escrow contract implementation
 
-To run the front-end application run `npm start` from the `/app` directory. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Running a Local Test Blockchain
 
+3. Adding a Custom RPC Network to Metamask
+
+4. React
+
+## Getting setup
+
+- Step 1: Cloning the repository
+
+- Step 2: Installing the dependencies
+
+- Step 3: Running a Local Test Blockchain via `npx hardhat node`
+
+- Step 4: Add a Custom RPC Network to Metamask wallet i.e configure the browser wallet to about your locally running blockchain.
+
+- Step 5: Compile the Contract via `npx hardhat compile`\*
+
+- Step 6: Run the Front-End with React\*\*
+
+- Interact With the dApp
+
+\*_The artifacts will be placed in the `/app` folder, which will make it available to the front-end. This path configuration can be found in the `hardhat.config.js` file._
+
+_\*\*To run the front-end application run `npm start` from the `/app` directory. Open [http://localhost:3000](http://localhost:3000) to view it in your browser._
