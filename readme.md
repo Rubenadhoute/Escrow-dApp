@@ -6,6 +6,7 @@ This is very basic dApp aims to provide decentralized Escrow services built with
 
 An escrow is a contractual arrangement in which a third party (the stakeholder or escrow agent) receives and disburses money or property for the primary transacting parties, with the disbursement dependent on conditions agreed to by the transacting parties.
 
+
 ##### Why decentralization ?
 
 Aim to take advantage of cool Ethereum features such as immutability and censorship resistance to provide flawless escrow service.
@@ -15,7 +16,12 @@ Aim to take advantage of cool Ethereum features such as immutability and censors
 Well if you need some escrow services and have little faith in human moral just follow the Getting Setup with dApp section below.
 
 I advise to take a look at the Escrow contract to understand the logic before
-setting up the dApp.
+setting up the dApp:
+
+<img width="690" alt="Screen Shot 2023-01-03 at 9 57 42" src="https://user-images.githubusercontent.com/68856635/210323362-87af7c17-f90f-4fc0-a318-85244a023f23.png">
+
+
+
 
 ## Key Learnings
 
